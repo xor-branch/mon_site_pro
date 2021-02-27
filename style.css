@@ -312,6 +312,7 @@ img.portfolio {
     div.frame{
         margin: 2px 5px;
         padding: 0px 0px;
+        box-shadow: none;
         
     }
     div.contact-frame{
@@ -335,16 +336,12 @@ img.portfolio {
         position: relative;
         top: 100px;
     }
-    .col40{
-        width: 100%;
-    }
     
-    .col60{
+    div.en_savoir_plus{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    img.portfolio{
         width: 100%;
     }
-    div.en_savoir_plus{
-        padding-right: 0px;
-        padding-left: 0px;
-    }
-
 }
