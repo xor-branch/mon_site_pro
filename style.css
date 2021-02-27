@@ -142,7 +142,7 @@ div.section{
 
 .col60{
     width: 60%;
-    font-size: 14pxé;
+    font-size: 14px;
     padding-left: 10px;
 }
 
@@ -301,6 +301,11 @@ img.portfolio {
         width: 100%;
     }
 
+    div.section{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
     table.col-potfolio{
         height: 200px;
     }
@@ -330,4 +335,16 @@ img.portfolio {
         position: relative;
         top: 100px;
     }
+    .col40{
+        width: 100%;
+    }
+    
+    .col60{
+        width: 100%;
+    }
+    div.en_savoir_plus{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
 }
