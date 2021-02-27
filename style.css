@@ -336,10 +336,16 @@ img.portfolio {
         position: relative;
         top: 100px;
     }
+    .col40{
+        width: 100%;
+    }
     
+    .col60{
+        width: 100%;
+    }
     div.en_savoir_plus{
-        padding-right: 10px;
-        padding-left: 10px;
+        padding-right: 0px;
+        padding-left: 0px;
     }
     img.portfolio{
         width: 100%;
