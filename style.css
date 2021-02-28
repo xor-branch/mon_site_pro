@@ -199,6 +199,10 @@ h2{
     width: 47%;
 }
 
+.col-potfolio img{
+    width: 100%;
+}
+
 div.frame{
     margin: 30px 50px;
     padding: 20px 100px;
@@ -293,12 +297,13 @@ img.portfolio {
         bottom: 0px
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 768px) {
     div.section-grise1 p{
         font-size:16px;
     }
+
     div.section-grise2 {
-        width: 100%;
+        overflow:auto;
     }
 
     div.section{
@@ -306,14 +311,10 @@ img.portfolio {
         padding-right: 10px;
     }
 
-    table.col-potfolio{
-        height: 200px;
-    }
     div.frame{
         margin: 2px 5px;
         padding: 0px 0px;
-        box-shadow: none;
-        
+        box-shadow: none; 
     }
     div.contact-frame{
         width: 100%;
@@ -347,7 +348,10 @@ img.portfolio {
         padding-right: 0px;
         padding-left: 0px;
     }
-    img.portfolio{
+   
+    .col-potfolio{
         width: 100%;
     }
+
+  
 }
